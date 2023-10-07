@@ -66,13 +66,12 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
     padding: 12px 0;
 }
 
