@@ -609,7 +609,24 @@ a {
 }
 
 .footer .social {
+    display: flex;
     margin-top: 40px;
+}
+
+.footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+}
+
+.footer .social-link + .social-link {
+    margin-left: 16px;
+}
+
+.footer .social-link:hover {
+    opacity: 0.5;
 }
 
 .footer .row-bottom {
