@@ -50,21 +50,30 @@ a {
     overflow: hidden;
 }
 
-/* ======== Header ======== */
-.header {
-    position: relative;
+/* ========= fixed-header ======== */
+
+.fixed-header {
     background: #e6f0ff;
-    height: 736px;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
 
-.header .content {
+/* ======== Header ======== */
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #e6f0ff;
     height: 100vh;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
